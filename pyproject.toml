@@ -1,0 +1,17 @@
+[project]
+name = "mlttt"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "S1L3NT1337", email = "s1l3ntd3v1337@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = []
+
+[project.scripts]
+mlttt = "mlttt:main"
+
+[build-system]
+requires = ["uv_build>=0.12.10,<0.13.0"]
+build-backend = "uv_build"
